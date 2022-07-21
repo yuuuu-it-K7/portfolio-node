@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box; /*widthがpaddingとborderまで含めた幅になる */
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding-top: 60px;
+}
+
+.middle-sentence {
+  display: flex;
+  flex-direction: column; /* 要素をどの方向に配置するか指定 */
+  align-items: center;
+  padding: 30px 0;
+}
+
+/* header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: rgba(168, 142, 119, 0.874);
+  box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+  height: 60px;
+}
+
+.header-lists {
+  height: 60px;
+  display: flex;
+  justify-content: center; /* Flexboxで中央揃え */
+  align-items: center; /* height指定して上下中央揃え */
+}
+
+.head-item {
+  font-size: 18px;
+  padding: 0 24px;
+  list-style: none; /* listの黒点なくす */
+  float: left; /* 横並びにする */
+  letter-spacing: 0.05em; /* 文字の間の間隔を05em開ける */
+}
+
+.head-link {
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-decoration: none; /* リンクの下線をなくす */
+}
+
+.head-link::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #ffffff;
+  transition: 0.3s;
+}
+
+.head-link:hover:hover::after {
+  width: 100%;
+}
+
+/* top */
+
+.top {
+  height: 750px;
+  background-image: url(/image/top.jpg);
+  background-size: cover;
+}
+
+.container {
+  padding-bottom: 50px;
+}
+
+.top-section h1 {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.product-section {
+  background-color: rgba(255, 219, 202, 0.223);
+  padding-bottom: 50px;
+}
+
+.middle-contents {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.middle-sentence h2 {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.middle-item-sentence {
+  text-align: center;
+}
+
+/* about-section */
+.about-contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* skill-section */
+.skill-section {
+  background-color: rgba(255, 219, 202, 0.223);
+}
+
+.skill-container {
+  max-width: 1200px; /* max-widthとするとFlexboxがきいた */
+  margin: 0 auto;
+}
+
+.skill-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 60px 40px;
+}
+
+.skill-body {
+  display: block;
+  width: 110px;
+}
+
+/* skill-アイコンのCSS */
+.skill-ikon {
+  font-size: 3em;
+  padding-right: 20px;
+}
+
+.fa-html5 {
+  color: rgb(255, 199, 32);
+}
+
+.fa-css3-alt {
+  color: rgb(89, 173, 252);
+}
+
+.fa-js-square {
+  color: rgb(237, 237, 95);
+}
+
+.fa-python {
+  color: rgb(90, 237, 220);
+}
+
+.fa-node {
+  color: rgb(91, 215, 77);
+}
+
+.fa-aws {
+  color: rgb(29, 51, 111);
+}
+
+/* rate */
+.rate {
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  letter-spacing: 0.3em;
+}
+
+.rate:before,
+.rate:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 20px;
+  display: inline-block;
+  height: 20px;
+  content: "★★★★★";
+}
+
+.rate:before {
+  color: #ddd;
+}
+
+.rate:after {
+  overflow: hidden;
+  white-space: nowrap;
+  color: #f181b4;
+}
+
+.rate1:after {
+  width: 20px;
+}
+
+.rate2:after {
+  width: 40px;
+}
+
+.rate3:after {
+  width: 60px;
+}
+
+.rate4:after {
+  width: 80px;
+}
+
+.rate5:after {
+  width: 100px;
+}
+
+.sns-ikon {
+  font-size: 2em;
+}
+
+.fa-instagram {
+  color: rgb(203, 56, 181);
+}
+
+.fa-twitter-square {
+  color: #3782c3;
+}
+
+/* sns-section */
+
+.sns-contents {
+  display: flex;
+  flex-direction: column; /* 要素をどの方向に配置するか指定 */
+  align-items: center;
+}
+
+.sns-contents li {
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+}
+
+.page-top {
+  padding: 10px 0;
+  background-color: rgba(159, 77, 41, 0.435);
+}
+
+.copyright {
+  padding: 30px 0;
+  color: white;
+
+  background-color: rgba(208, 102, 10, 0.874);
+}
