@@ -67,8 +67,10 @@ header {
 /* top */
 
 .top {
+  width: 100%;
   height: 750px;
   background-image: url(/image/top.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -256,4 +258,22 @@ footer {
   color: white;
 
   background-color: rgba(208, 102, 10, 0.874);
+}
+
+/* 　スマホ画面用*/
+@media screen and (max-width: 480px) {
+  .head-item {
+    font-size: 15px;
+    padding: 0 24px;
+    list-style: none; /* listの黒点なくす */
+    float: left; /* 横並びにする */
+    letter-spacing: 0.05em; /* 文字の間の間隔を05em開ける */
+  }
+  .top {
+    width: 100%;
+    height: 650px;
+    background-image: url(/image/top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
