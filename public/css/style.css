@@ -262,6 +262,9 @@ footer {
 
 /* 　スマホ画面用*/
 @media screen and (max-width: 480px) {
+  * {
+    width: 480px;
+  }
   .head-item {
     font-size: 15px;
     padding: 0 24px;
