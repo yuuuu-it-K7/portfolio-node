@@ -154,7 +154,7 @@ header {
 
 /* skill-section */
 .skill-section {
-  background-color: rgba(255, 219, 202, 0.223);
+  background-color: rgba(255, 255, 255, 0.422);
 }
 
 .skill-container {
@@ -324,5 +324,22 @@ footer {
   .middle-item img {
     width: 350px;
     height: 350px;
+  }
+
+  .skill-container {
+    margin: 0 auto;
+  }
+
+  .skill-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .skill-item1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 60px 40px;
   }
 }
