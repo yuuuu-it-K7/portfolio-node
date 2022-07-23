@@ -286,4 +286,8 @@ footer {
   .top {
     height: 550px;
   }
+  .middle-item img {
+    width: 400px;
+    height: 400px;
+  }
 }
