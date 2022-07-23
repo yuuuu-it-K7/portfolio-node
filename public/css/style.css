@@ -146,6 +146,9 @@ header {
 }
 
 /* about-section */
+.about-section {
+  padding-bottom: 80px;
+}
 .about-contents {
   display: flex;
   flex-wrap: wrap;
@@ -335,6 +338,14 @@ footer {
   .middle-item img {
     width: 350px;
     height: 350px;
+  }
+
+  .about-sentence1 {
+    padding-left: 40px;
+  }
+
+  .about-sentence2 {
+    padding: 0 40px;
   }
 
   .skill-item {
