@@ -327,7 +327,14 @@ footer {
   }
 
   .skill-container {
+    max-width: 480px; /* max-widthとするとFlexboxがきいた */
     margin: 0 auto;
+  }
+
+  .skill-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .skill-item1 {
@@ -335,5 +342,10 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 60px 40px;
+  }
+
+  .skill-body {
+    display: block;
+    width: 110px;
   }
 }
