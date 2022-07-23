@@ -348,6 +348,10 @@ footer {
     padding: 0 30px;
   }
 
+  .about-sentence2 p {
+    font-size: 12px;
+  }
+
   .skill-item {
     text-align: center;
     padding: 30px 10px;
