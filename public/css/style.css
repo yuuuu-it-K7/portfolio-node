@@ -268,7 +268,7 @@ footer {
 }
 
 .copyright {
-  padding: 30px 0;
+  padding: 20px 0;
   color: white;
 
   background-color: rgb(69, 66, 63);
@@ -285,6 +285,9 @@ footer {
   }
   .top {
     height: 550px;
+  }
+  .middle-item {
+    padding: 20px 0;
   }
   .middle-item img {
     width: 350px;
