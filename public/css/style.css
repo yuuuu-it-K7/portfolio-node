@@ -284,14 +284,6 @@ footer {
     letter-spacing: 0.05em; /* 文字の間の間隔を05em開ける */
   }
   .top {
-    width: 100%;
     height: 550px;
-    background-image: url(/image/top2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .product-section {
-    background-image: url(/image/haikei1.jpg);
-    padding-bottom: 50px;
   }
 }
