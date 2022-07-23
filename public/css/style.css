@@ -276,4 +276,8 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .product-section {
+    background-image: url(/image/haikei1.jpg);
+    padding-bottom: 50px;
+  }
 }
