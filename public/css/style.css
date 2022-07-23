@@ -325,27 +325,12 @@ footer {
     width: 350px;
     height: 350px;
   }
-
-  .skill-container {
-    max-width: 480px; /* max-widthとするとFlexboxがきいた */
-    margin: 0 auto;
+  .skill-ikon {
+    font-size: 3em;
+    padding-right: 20px;
   }
 
-  .skill-lists {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .skill-item1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 60px 40px;
-  }
-
-  .skill-body {
-    display: block;
-    width: 110px;
+  .skill-title {
+    font-size: 12px;
   }
 }
