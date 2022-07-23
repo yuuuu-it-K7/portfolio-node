@@ -330,12 +330,6 @@ footer {
     margin: 0 auto;
   }
 
-  .skill-lists {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
   .skill-item1 {
     display: flex;
     flex-wrap: wrap;
